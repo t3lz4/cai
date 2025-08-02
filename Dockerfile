@@ -1,7 +1,7 @@
 # docker build -t caitest .
 # docker run -it caitest
 
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 # Update and install dependencies
 RUN apt-get update && \
